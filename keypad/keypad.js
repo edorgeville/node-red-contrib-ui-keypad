@@ -4,6 +4,7 @@ module.exports = function(RED) {
     <link rel="stylesheet" href="../path/to/your/bower_components/angular-keypad/dist/angular-keypad.css">
     <script src="../path/to/your/bower_components/angular-keypad/dist/angular-keypad.js"></script>
     <p>KeypadNode</p>
+    <bc-keypad bc-number-model="vm.numbers"></bc-keypad>
     `;
 
     //angular.module('YourModule', ['bc.AngularKeypad']);
